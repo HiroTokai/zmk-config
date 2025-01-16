@@ -54,8 +54,8 @@
 //                    | TAB | / | SPC |   | Back | Enter  | ; |
                         bindings = <
    &none   &kp B &kp L &kp D &kp W &kp Z   &sqt_unds &kp F  &kp O     &kp U   &kp J    &none
-   &none &mt LGUI N &mt LALT R &mt LCTRL T &mt LSHFT S &kp G   &kp Y &mt RSFT H  &mt RCTRL A     &mt RALT E   &mt RGUI I &none
-   &none &kp Q &kp X &kp M &kp C &kp V   &kp K &kp P  &kp DOT &hyph_quot &COMMA &none
+   &none &mt LGUI N &mt LALT R &mt LCTRL T &mt LSHFT S &kp G   &kp Y &mt RSHFT H  &mt RCTRL A     &mt RALT E   &mt RGUI I &none
+   &none &kp Q &kp X &kp M &kp C &kp V   &kp K &kp P  &kp DOT &hyph_quot &kp COMMA &none
                   &lt NAV TAB &lt NUM SLASH &kp SPACE   &kp BACKSPACE &kp ENTER &lt SYM SEMI
                         >;
                 };
@@ -68,7 +68,7 @@
                         bindings = <
    &none    &trans  &trans     &trans     &trans   &trans     &kp LBKT   &kp N7   &kp N8 &kp N9    &kp RBKT &none
    &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &trans         &kp EQUAL &kp N4 &kp N5 &kp N6 &kp SEMI &none
-   &none  &trans       &trans       &trans       &trans       &kp BSLH   &kp N1   &kp N2   &kp N3 &kp GRAVE  &trans &none
+   &none  &trans       &trans       &trans       &trans       &trans &kp BSLH   &kp N1   &kp N2   &kp N3 &kp GRAVE  &none
                                 &trans     &trans   &trans      &kp MINUS  &kp N0   &kp DOT
                         >;
                 };
@@ -81,7 +81,7 @@
 //                    |  (  |  )  |  _  |   |     |     |     |
                         bindings = <
    &none  &kp EXCL &kp AMPS &kp STAR &kp LBRC &kp RBRC   &kp CARET &trans  &trans &trans &trans &none
-   &none &kp SEMI   &kp DLLR &kp PRCNT   &kp CARET   &kp PLUS      &trans &kp RSFT &kp RCTRL  &kp RALT &kp RGUI &none
+   &none &kp SEMI   &kp DLLR &kp PRCNT   &kp CARET   &kp PLUS      &trans &kp RSHFT &kp RCTRL  &kp RALT &kp RGUI &none
    &none &kp TILDE   &kp COLON &kp AT   &kp HASH   &kp PIPE      &trans &trans  &trans  &trans &trans &none
                              &kp LPAR &kp RPAR   &kp UNDER   &trans   &trans    &trans
                         >;
@@ -95,7 +95,7 @@
 //                    |     |     |     |   | HOME|  END|  ESC  |
                         bindings = <
    &none  &trans &trans &trans &trans &trans   &trans &trans  &kp UP &trans &trans &none
-   &none &kp LGUI   &kp LALT &kp LCRTL   &kp LSHFT   &trans      &trans &kp LEFT &kp DOWN  &kp RIGHT &trans &none
+   &none &kp LGUI   &kp LALT &kp LCTRL   &kp LSHFT   &trans      &trans &kp LEFT &kp DOWN  &kp RIGHT &trans &none
    &none &trans   &trans &trans   &trans   &trans      &kp LC(C) &kp LC(V)  &kp LC(A)  &trans &trans &none
                              &trans &trans   &trans   &kp HOME   &kp END    &kp ESC
                         >;
