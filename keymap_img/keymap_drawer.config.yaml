@@ -92,19 +92,19 @@ parse_config:
   preprocess: true
   qmk_keycode_map:
     AMPERSAND: '&'
-    AMPR: '&'
+    AMPS: '&'
     ASTERISK: '*'
-    ASTR: '*'
+    STAR: '*'
     AT: '@'
     BACKSLASH: \
-    BSLS: \
-    CIRC: ^
+    BSLH: \
+    CARET: ^
     CIRCUMFLEX: ^
     COLN: ':'
     COLON: ':'
     COMM: ','
     COMMA: ','
-    DLR: $
+    DLLR: $
     DOLLAR: $
     DOT: .
     DOUBLE_QUOTE: '"'
@@ -113,42 +113,42 @@ parse_config:
     EQL: '='
     EQUAL: '='
     EXCLAIM: '!'
-    EXLM: '!'
+    EXCL: '!'
     GRAVE: '`'
     GRV: '`'
     GT: '>'
     HASH: '#'
     LABK: <
-    LBRC: '['
-    LCBR: '{'
+    LBKT: '['
+    LBRC: '{'
     LEFT_ANGLE_BRACKET: <
     LEFT_BRACKET: '['
     LEFT_CURLY_BRACE: '{'
     LEFT_PAREN: (
-    LPRN: (
+    LPAR: (
     LT: <
     MINS: '-'
     MINUS: '-'
     'NO': ''
     NONUS_HASH: '#'
-    NUHS: '#'
-    PERC: '%'
+    HASH: '#'
+    PRCNT: '%'
     PERCENT: '%'
     PIPE: '|'
     PLUS: +
-    QUES: '?'
+    QMARK: '?'
     QUESTION: '?'
     QUOT: ''''
     QUOTE: ''''
-    RABK: '>'
-    RBRC: ']'
-    RCBR: '}'
+    RT: '>'
+    RBKT: ']'
+    RBRC: '}'
     RIGHT_ANGLE_BRACKET: '>'
     RIGHT_BRACKET: ']'
     RIGHT_CURLY_BRACE: '}'
     RIGHT_PAREN: )
-    RPRN: )
-    SCLN: ;
+    RPAR: )
+    SEMI: ;
     SEMICOLON: ;
     SLASH: /
     SLSH: /
@@ -157,7 +157,7 @@ parse_config:
     TRANSPARENT: ''
     TRNS: ''
     UNDERSCORE: _
-    UNDS: _
+    UNDER: _
     SPACE: ⎵
   raw_binding_map:
     '&mm_grescm': {t: '⎋', s: '` ~'}
@@ -203,9 +203,9 @@ parse_config:
     AMPERSAND: '&'
     AMPS: '&'
     APOS: {t: "'", s: '"'}
-    APOSTROPHE: <
+    APOSTROPHE: "'"
     ASTERISK: '*'
-    ASTRK: '*'
+    STAR: '*'
     AT: '@'
     AT_SIGN: '@'
     BACKSLASH: {t: '\', s: '|'}
@@ -238,9 +238,9 @@ parse_config:
     NON_US_BACKSLASH: \
     NON_US_BSLH: '|'
     NON_US_HASH: '#'
-    NUHS: '#'
+    HASH: '#'
     PERCENT: '%'
-    PERIOD: .
+    DOT: .
     PIPE: '|'
     PIPE2: '|'
     PLUS: +
