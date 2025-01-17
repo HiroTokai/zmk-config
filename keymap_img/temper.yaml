@@ -1,6 +1,9 @@
+<<<<<<< HEAD
  #FILL IN below field with a value like {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 # or {ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 3}}
 # see https://github.com/caksoylar/keymap-drawer/blob/main/KEYMAP_SPEC.md#layout
+=======
+>>>>>>> e7f3f0d583c40b6cf2c28fd3999bdf1d63b09388
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 layers:
   default:
@@ -10,7 +13,11 @@ layers:
   - {t: TAB, h: nav}
   - {t: /, h: num}
   - SPACE
+<<<<<<< HEAD
   - BACKSPACE 
+=======
+  - BACKSPACE
+>>>>>>> e7f3f0d583c40b6cf2c28fd3999bdf1d63b09388
   - ENTER
   - {t: ;, h: sym}
   num:
