@@ -10,7 +10,7 @@ layers:
   - {t: TAB, h: nav}
   - {t: /, h: num}
   - SPACE
-  - BACKSPACE
+  - BACKSPACE 
   - ENTER
   - {t: ;, h: sym}
   num:
