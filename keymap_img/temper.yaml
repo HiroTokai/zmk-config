@@ -1,55 +1,28 @@
-<<<<<<< HEAD
  #FILL IN below field with a value like {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 # or {ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 3}}
 # see https://github.com/caksoylar/keymap-drawer/blob/main/KEYMAP_SPEC.md#layout
-=======
->>>>>>> e7f3f0d583c40b6cf2c28fd3999bdf1d63b09388
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 layers:
   default:
   - [B, L, D, W, Z, {t: "'", s: "_"}, F, O, U, J]
   - [{t: N, h: Gui}, {t: R, h: Alt}, {t: T, h: Ctrl}, {t: S, h: Shift}, G, Y ,{t: H, h: Shift}, {t: A, h: Ctrl}, {t: E, h: Alt}, {t: I, h: Gui}]
-  - [Q, X, M, C, V, K, P, ., {t: '-', s: '"'}, ',']
+  - [Q, X, M, C, V, K, P, {t: ., s: '>'}, {t: '-', s: '"'}, {t: ',', s: '<'}]
   - {t: TAB, h: nav}
-  - {t: /, h: num}
+  - {t: /, h: num, s: '?'}
   - SPACE
-<<<<<<< HEAD
-  - BACKSPACE 
-=======
   - BACKSPACE
->>>>>>> e7f3f0d583c40b6cf2c28fd3999bdf1d63b09388
   - ENTER
-  - {t: ;, h: sym}
+  - {t: ;, h: sym, s: ':'}
   num:
-    - [null, null, null, null, null, '[', '7', '8', '9', ']'] 
-    - [Gui, Alt, Ctrl, Shift, null, '=', '4', '5', '6', ';']
-    - [null, null, null, null, null, '\', '1', '2', '3', '`']
-    - null
+    - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+    - ['!', '@', '&', '$', '%', '*', '#', '(', ')', '='] 
+    - ['^', HOME, END, UP, DOWN, LEFT, RIGHT, '[', ']', \]
+    - LC(C)
     - {type: held}
-    - null
-    - '-'
-    - '0' 
-    - '.'
-  sym:
-    - ['!', '&', '*', '{', '}', null, null, null, null, null]
-    - [';', '$', '%', '^', '+', null, Shift, Ctrl, Alt, Gui]
-    - ['~', ':', '@', '#', '|', null, null, null, null, null]
-    - '('
-    - ')'
-    - '_'
-    - null
-    - null
-    - {type: held}
-  nav:
-    - [null, null, null, null, null, null, null, UP, null, ESC]
-    - [Gui, Alt, Ctrl, Shift, null, null, LEFT, DOWN, RIGHT, null]
-    - [null, null, null, null, null, Copy, Paste, Copy, null, null]
-    - {type: held}
-    - null
-    - null
-    - HOME
-    - END
-    - null
+    - LC(V)
+    - Shift
+    - '-' 
+    - '`'
   fun:
     - [null, MUTE, VOL DN, VOL UP, OUT TOG, null, F7, F8, F9, F12]
     - [{t: BT, h: '0'}, {t: BT, h: '1'}, {t: BT, h: '2'}, {t: BT, h: '3'}, {t: BT, h: '4'}, null, F4, F5, F6, F11] 
@@ -59,4 +32,4 @@ layers:
     - null
     - null
     - null
-    - {type: held}
+    - null
