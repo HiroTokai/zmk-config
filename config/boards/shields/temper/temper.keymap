@@ -29,14 +29,15 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp UNDER>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
+            mods = <(MOD_LSHFT|MOD_RSHFT)>;
+            keep-mods = <(MOD_RSHFT)>;
         };
         hyph_quot: hyphen_doublequotes {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp DQT>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSHFT|MOD_RSHFT)>;
+            keep-mods = <(MOD_RSHFT)>;
         };
         
     };
