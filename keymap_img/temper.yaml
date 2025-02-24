@@ -5,20 +5,20 @@ layers:
     - D
     - W
     - Z
-    - {t: '''', s: '_'}
+    - {t: '''', s: _}
     - F
     - O
     - U
     - J
-  - - {t: N, h:  ⌘}
-    - {t: R, h: ⎇} 
-    - {t: T, h: ⌃} 
+  - - {t: N, h: ⌘}
+    - {t: R, h: ⎇}
+    - {t: T, h: ⌃}
     - {t: S, h: ⇧}
-    - G 
-    - Y 
-    - {t: H, h: ⇧} 
-    - {t: A, h: ⌃} 
-    - {t: E, h: ⎇} 
+    - G
+    - Y
+    - {t: H, h: ⇧}
+    - {t: A, h: ⌃}
+    - {t: E, h: ⎇}
     - {t: I, h: ⌘}
   - - Q
     - X
@@ -27,89 +27,43 @@ layers:
     - V
     - K
     - P
-    - {t: '.', s: '>'}
+    - {t: ., s: '>'}
     - {t: '-', s: '"'}
-    - {t: ',', s: '<'}
-  - - {t: TAB, h: nav}
-    - {t: '/', s: '?', h: num}
+    - {t: ',', s: <}
+  - - ↹
+    - {t: /, h: num, s: '?'}
     - SPACE
     - BACKSPACE
-    - ENTER
-    - {t: ';', s: ':', h: sym}
+    - {t: ENTER, h: nav}
+    - {t: ;, s: ':'}
   num:
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '['
-    - '7'
-    - '8'
-    - '9'
-    - ']'
-  - - ⌘
-    - ⎇
-    - ⌃
-    - ⇧
-    - {t: ▽, type: trans}
-    - '='
-    - '4'
-    - '5'
-    - '6'
-    - ';'
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '\'
-    - '1'
-    - '2'
-    - '3'
-    - '`'
-  - - {t: ▽, type: trans}
-    - {type: held}
-    - {t: ▽, type: trans}
-    - '-'
-    - '0'
-    - '.'
-  sym:
+  - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
   - - '!'
-    - '&'
-    - '*'
-    - '{'
-    - '}'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ';'
-    - '$'
-    - '%'
-    - '^'
-    - '+'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - '~'
-    - ':'
     - '@'
+    - '&'
+    - $
+    - '%'
+    - '*'
     - '#'
-    - '|'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - '('
-    - ')'
-    - '-'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - (
+    - )
+    - {t: '=', s: +}
+  - - ^
+    - HOME
+    - END
+    - ↑
+    - ↓
+    - ←
+    - →
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
+    - \
+  - - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
+    - ⇧
+    - {t: '-', s: _}
+    - {t: '`', s: '~'}
   nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -120,39 +74,39 @@ layers:
     - {t: ▽, type: trans}
     - ↑
     - {t: ▽, type: trans}
+    - ESC
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ⌘, h: sticky}
-    - {t: ⎇, h: sticky}
-    - {t: ⌃, h: sticky}
-    - {t: ⇧, h: sticky}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ←
     - ↓
-    - →
+    - ↑
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - ⌃C
-    - ⌃V
-    - ⌃A
+    - Ctl+C
+    - Ctl+V
+    - Ctl+A
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+  - - (
+    - )
+    - _
     - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
-    - HOME
-    - END
-    - ESC
   fun:
   - - {t: ▽, type: trans}
     - MUTE
     - VOL DN
     - VOL UP
-    - OUT TOG
+    - OUT USB
     - {t: ▽, type: trans}
     - F7
     - F8
@@ -172,15 +126,15 @@ layers:
     - PREV
     - PP
     - NEXT
-    - {t: ▽, type: trans}
+    - OUT BLE
     - {t: ▽, type: trans}
     - F1
     - F2
     - F3
     - F10
-  - - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
