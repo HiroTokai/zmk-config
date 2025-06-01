@@ -55,7 +55,7 @@
 
             bindings = <
 &none  &kp B       &kp L       &kp D        &kp W          &kp Z        &sqt_unds      &kp F          &kp O        &kp U       &kp J       &none
-&none  &mt LGUI N  &mt LALT R  &mt LCTRL T  &mt LSHFT S    &kp G        &kp Y          &mt RSHFT H    &mt RCTRL A  &mt RALT E  &mt LGUI I  &none
+&none  &kp N  &mt LALT R  &mt LCTRL T  &mt LSHFT S    &kp G        &kp Y          &mt RSHFT H    &mt RCTRL A  &mt RALT E  &kp I  &none
 &none  &kp Q       &kp X       &kp M        &kp C          &kp V        &kp K          &kp P          &kp DOT      &hyph_quot  &kp COMMA   &none
                                &kp TAB      &lt NUM SLASH  &kp SPACE    &kp BACKSPACE  &lt NAV ENTER  &kp SEMI
             >;
